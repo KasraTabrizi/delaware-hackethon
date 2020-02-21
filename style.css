@@ -24,4 +24,23 @@
 .side-li a{
     color: black;
     text-decoration: none;
+    transition: 0.5s ease all;
+}
+
+.side-li a:active{
+    color: black;
+    text-decoration: none;
+}
+
+.side-li a:hover{
+    text-decoration: none;
+    color: orange;
+    transform: scale(0.9); 
+}
+
+.side-li img{
+    transition: 0.5s ease all; 
+}
+.side-li img:hover{
+    transform: scale(0.9); 
 }
